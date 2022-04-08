@@ -23,7 +23,7 @@ function Create() {
     if (data) {
       navigate("/");
     }
-  }, [data]);
+  }, [navigate, data]);
 
   const handleCreateRecipe = (e) => {
     e.preventDefault();

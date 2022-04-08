@@ -6,6 +6,7 @@ export const StyledHeader = styled.header`
   nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
